@@ -1,0 +1,4 @@
+Gebruikte fonts
+
+* Playfair display (Google fonts)
+* Open sans (Google fonts)

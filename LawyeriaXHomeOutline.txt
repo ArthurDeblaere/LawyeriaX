@@ -1,0 +1,37 @@
+LawyeriaXHome
+	Header
+	Intro
+	Content
+		Safety
+			Criminal
+			Individuals
+			Accidents
+			Copyright
+		Our lawyers
+			Emily
+			George
+			Albert
+		Practice areas
+			Accredited
+			Affordable
+			Global
+			Dependable
+			Tradition
+		Intermezzo(title)
+		Our clients
+		Latest news
+			Banking and financial
+			Family law
+			Bicycle accidents
+	Doormat
+		Cases
+			Banking and financial
+			Family law
+			Bicycle accidents
+		Testimonials
+			Bodrum
+			Inverness
+	Footer
+		Contact
+		Sitemap
+		Recent posts

@@ -1,0 +1,1551 @@
+/**
+ * LawyeriaX Home
+ *
+ * @author Arthur Deblaere <arthur.deblaere@student.odisee.be>
+ *
+ */
+
+
+/*General*/
+
+.wrapper{
+	max-width: 90%;
+}
+.date{
+	background-color: #D93B3C;
+	width: 13%;
+	color: #fff;
+	float: left;
+	padding: 0.5rem;
+	text-align: center;
+	border-radius: 0.2rem;
+}
+
+.sub{
+	font-style: italic;
+	margin-left: 6rem;
+	margin-bottom: 1rem;
+}
+ /* ===========================================
+   Intro
+   =========================================== */
+
+#intro{
+	margin-bottom: 2rem;
+	background-image: url(../img/BusinessIntro2.PNG);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 5%;
+}
+
+#intro > .wrapper{
+	padding-top: 5rem;
+}
+#intro > .wrapper > h3{
+	font-size: 3.5rem;
+	font-weight: 200;
+	margin-bottom: 2rem;
+	color: #fff;
+}
+
+#intro > .wrapper > p{
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	font-weight: 100;
+	color: #fff;
+	width: 65%;
+	line-height: 2.5rem;
+	margin-bottom: 3rem;
+}
+
+#intro > .wrapper > a{
+	background-color: #D93B3C;
+	padding: 1.2rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	font-size: 1rem;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+}
+
+/* ===========================================
+   Content
+   =========================================== */
+/*General*/
+
+#content h3{
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding: 2rem;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 5rem;
+	text-align: center;
+	border-top: 0.2rem solid #F6F4F5;
+}
+
+#content > div > section{
+	margin-top: 5rem;
+}
+
+/*Safety*/
+
+#safety > h3{
+	border-bottom: 0.2rem solid #F6F4F5;
+	border-top: none;
+}
+
+#safety > ul{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#safety > ul > li{
+	width: 60%;
+	margin: 1.5rem auto;
+}
+
+#safety > ul > li > p{
+	padding-left: 1rem;
+	border-left: 0.3rem solid #E9E9E9;
+	font-size: 1.2rem;
+	margin-top: 1.5rem;
+	font-family: 'Open Sans', sans-serif;
+	color: #797879;
+}
+#safety > img{
+	float: left;
+}
+#safety h4{
+	font-size: 1.8rem;
+	font-weight: 500;
+	float: right;
+	padding-right: 10rem;
+	padding-top: 0.8rem;
+}
+
+/*Our Lawyers*/
+
+#Lawyers > ul > li{
+	width: 55%;
+	margin: 1rem auto;
+	margin-bottom: 3rem;
+	float: left;
+}
+
+#Lawyers > ul{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.ID .pic{
+	float: left;
+}
+
+.ID h4{
+	font-size: 1.7rem;
+	font-weight: 500;
+	float: left;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+}
+
+.ID p{
+	margin-left: 1rem;
+	font-style: italic;
+	float: left;
+	font-size: 1.4rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	border-left: 0.3rem solid #E9E9E9;
+	color: #797879;
+}
+
+.IDsocial{
+	width: 30%;
+	height: 30%;
+	margin-left: 1rem;
+	padding-bottom: 1rem;
+	float: left;
+	border-left: 0.3rem solid #E9E9E9;
+}
+
+.ID > a{
+	text-decoration: none;
+	color: #fff;
+	padding: 1rem;
+	margin-left: 1.5rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	background-color: #D93B3C;
+	margin-top: 0.5rem;
+	float: left;
+}
+
+/*Areas*/
+
+#Areas > ul{
+	text-align: center;
+	margin: 0 auto;
+}
+#Areas li{
+	display: inline-block;
+	width: 90%;
+	margin: 1rem;
+	text-align: center;
+}
+
+#Areas h4{
+	color: #D93B3C;
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin: 0.5rem 0;
+}
+
+#Areas p{
+	margin: 0 auto;
+	margin-top: 0.5rem;
+	border-left: 0.3rem solid #E9E9E9;
+	font-size: 1rem;
+	width: 50%;
+	font-family: 'Open Sans', sans-serif;
+	color: #797879;
+}
+
+#Areas{
+	padding-bottom: 3rem;
+	border-bottom: 0.3rem solid #E9E9E9;
+	margin-bottom: 5rem;
+}
+
+/*Intermezzo*/
+
+#intermezzo img{
+	margin: 1rem auto;
+	margin-right: 1rem;
+	width: 90%;
+}
+
+#intermezzo h3{
+	width: 100%;
+	text-align: left;
+	font-size: 1.4rem;
+	border-top: none;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	padding: 0;
+}
+
+#intermezzo p{
+	width: 90%;
+	margin-left: 1rem;
+	padding-left: 1rem;
+	float: left;
+	border-left: 0.3rem solid #E9E9E9;
+	color: #797879;
+	font-size: 1rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Clients*/
+
+#clients{
+	margin-bottom: 2rem;
+}
+
+#clients li{
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+}
+
+/*Latest news*/
+
+#news > section{
+	width: 75%;
+	margin: 2rem auto;
+}
+
+#news .date{
+	width: 10%;
+}
+
+#news img{
+	width: 90%;
+}
+
+#news h4{
+	font-size: 1.7rem;
+	font-weight: 600;
+	margin-left: 6rem;
+	margin-bottom: 0.5rem;
+}
+
+#news .newstext{
+	font-size: 1rem;
+	color: #868486;
+	border-left: 0.3rem solid #E9E9E9;
+	padding-left: 1rem;
+	padding-top: 2rem;
+	line-height: 2rem;
+	width: 70%;
+	font-family: 'Open sans';
+	padding-bottom: 2rem;
+}
+
+#news a{
+	border-left: 0.3rem solid #E9E9E9;
+	padding-left: 1rem;
+	text-decoration: none;
+	color: #D93B3C;
+	font-size: 1.5rem;
+}
+#news{
+	padding-bottom: 5rem;
+	border-bottom: 0.2rem solid #E9E9E9;
+}
+/*Doormat*/
+
+#doormat{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10rem;
+}
+#cases{
+	width: 50%;
+	margin: 1rem auto;
+}
+
+#cases h3{
+	font-size: 3rem;
+	font-weight: 500;
+	margin-left: 1rem;
+	margin-bottom: 3rem;
+}
+
+#cases li{
+	width: 80%;
+	padding-bottom: 2rem;
+	display: block;
+	margin: 1rem 0;
+}
+
+#cases .date{
+	width: 20%;
+}
+
+#cases h4{
+	font-size: 1.8rem;
+	font-weight: 550;
+	margin-left: 6rem;
+	margin-bottom: 1rem;
+}
+
+#testimonials{
+	width: 80%;
+	margin: 1rem auto;
+}
+
+#testimonials h3{
+	font-size: 3rem;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 3rem;
+}
+
+#testimonials h4{
+	font-size: 1.5rem;
+	margin-left: 3rem;
+	color: #381E1F;
+	margin: 0.5rem;
+}
+
+#testimonials > ul > li > ul > li{
+	float: left;
+	width: 30%;
+}
+
+#testimonials > ul > li > ul{
+	margin-bottom: 1rem;
+}
+
+#testimonials ul{
+	margin-bottom: 2rem;
+	border-left: 0.3rem solid #E9E9E9;
+}
+
+#testimonials p{
+	margin-left: 0.5rem;
+	color: #797879;
+}
+
+#testimonials .testimonialpic{
+	width: 20%;
+}
+
+#testimonials .testimonialtext{
+	width: 60%;
+}
+
+#testimonials .sub{
+	font-size: 0.7rem;
+}
+
+#testimonials .testimonialtext p{
+	font-family: 'Open sans';
+}
+
+
+
+
+
+
+
+
+
+/* ===========================================
+   Media queries
+   =========================================== */
+@media (min-width: 22rem){
+	/*General*/
+
+	.wrapper{
+		max-width: 90%;
+	}
+	.date{
+		background-color: #D93B3C;
+		width: 13%;
+		color: #fff;
+		float: left;
+		padding: 0.5rem;
+		text-align: center;
+		border-radius: 0.2rem;
+	}
+
+	.sub{
+		font-style: italic;
+		margin-left: 6rem;
+		margin-bottom: 1rem;
+	}
+	 /* ===========================================
+	   Intro
+	   =========================================== */
+
+	#intro{
+		margin-bottom: 2rem;
+		background-image: url(../img/BusinessIntro2.PNG);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding-bottom: 5%;
+	}
+
+	#intro > .wrapper{
+		padding-top: 5rem;
+	}
+	#intro > .wrapper > h3{
+		font-size: 5rem;
+		font-weight: 200;
+		margin-bottom: 2rem;
+		color: #fff;
+	}
+
+	#intro > .wrapper > p{
+		font-size: 1rem;
+		margin-bottom: 2rem;
+		font-weight: 100;
+		color: #fff;
+		width: 65%;
+		line-height: 2.5rem;
+		margin-bottom: 3rem;
+	}
+
+	#intro > .wrapper > a{
+		background-color: #D93B3C;
+		padding: 1.2rem;
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+		font-size: 1.5rem;
+		text-decoration: none;
+		color: #fff;
+		text-align: center;
+	}
+
+	/* ===========================================
+	   Content
+	   =========================================== */
+	/*General*/
+
+	#content h3{
+		font-size: 3rem;
+		font-weight: 500;
+		padding: 2rem;
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 5rem;
+		text-align: center;
+		border-top: 0.2rem solid #F6F4F5;
+	}
+
+	#content > div > section{
+		margin-top: 5rem;
+	}
+
+	/*Safety*/
+
+	#safety > h3{
+		border-bottom: 0.2rem solid #F6F4F5;
+		border-top: none;
+	}
+
+	#safety > ul{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#safety > ul > li{
+		width: 60%;
+		margin: 1.5rem auto;
+	}
+
+	#safety > ul > li > p{
+		padding-left: 1rem;
+		border-left: 0.3rem solid #E9E9E9;
+		font-size: 1.2rem;
+		margin-top: 1.5rem;
+		font-family: 'Open Sans', sans-serif;
+		color: #797879;
+	}
+	#safety > img{
+		float: left;
+	}
+	#safety h4{
+		font-size: 1.8rem;
+		font-weight: 500;
+		float: right;
+		padding-right: 10rem;
+		padding-top: 0.8rem;
+	}
+
+	/*Our Lawyers*/
+
+	#Lawyers > ul > li{
+		width: 60%;
+		margin: 1rem auto;
+		margin-bottom: 3rem;
+		float: left;
+	}
+
+	#Lawyers > ul{
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	.ID .pic{
+		float: left;
+	}
+
+	.ID h4{
+		font-size: 1.7rem;
+		font-weight: 500;
+		float: left;
+		margin-bottom: 1rem;
+		margin-left: 1rem;
+	}
+
+	.ID p{
+		margin-left: 1rem;
+		font-style: italic;
+		float: left;
+		font-size: 1.2rem;
+		padding-left: 1rem;
+		padding-bottom: 1rem;
+		border-left: 0.3rem solid #E9E9E9;
+		color: #797879;
+	}
+
+	.IDsocial{
+		width: 30%;
+		height: 30%;
+		margin-left: 1rem;
+		padding-bottom: 1rem;
+		float: left;
+		border-left: 0.3rem solid #E9E9E9;
+	}
+
+	.ID > a{
+		text-decoration: none;
+		color: #fff;
+		padding: 1rem;
+		margin-left: 1.5rem;
+		padding-left: 1rem;
+		padding-bottom: 1rem;
+		background-color: #D93B3C;
+		margin-top: 0.5rem;
+		float: left;
+	}
+
+	/*Areas*/
+
+	#Areas > ul{
+		text-align: center;
+		margin: 0 auto;
+	}
+	#Areas li{
+		display: inline-block;
+		width: 90%;
+		margin: 1rem;
+		text-align: center;
+	}
+
+	#Areas h4{
+		color: #D93B3C;
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin: 0.5rem 0;
+	}
+
+	#Areas p{
+		margin: 0 auto;
+		margin-top: 0.5rem;
+		border-left: 0.3rem solid #E9E9E9;
+		font-size: 1rem;
+		width: 50%;
+		font-family: 'Open Sans', sans-serif;
+		color: #797879;
+	}
+
+	#Areas{
+		padding-bottom: 3rem;
+		border-bottom: 0.3rem solid #E9E9E9;
+		margin-bottom: 5rem;
+	}
+
+	/*Intermezzo*/
+
+	#intermezzo img{
+		margin: 1rem auto;
+		margin-right: 1rem;
+		width: 90%;
+	}
+
+	#intermezzo h3{
+		width: 100%;
+		text-align: left;
+		font-size: 1.4rem;
+		border-top: none;
+		margin-left: 1rem;
+		margin-bottom: 1rem;
+		padding: 0;
+	}
+
+	#intermezzo p{
+		width: 90%;
+		margin-left: 1rem;
+		padding-left: 1rem;
+		float: left;
+		border-left: 0.3rem solid #E9E9E9;
+		color: #797879;
+		font-size: 1rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	/*Clients*/
+
+	#clients{
+		margin-bottom: 2rem;
+	}
+
+	#clients li{
+		width: 30%;
+		margin: 0 auto;
+		margin-bottom: 2rem;
+	}
+
+	/*Latest news*/
+
+	#news > section{
+		width: 75%;
+		margin: 2rem auto;
+	}
+
+	#news .date{
+		width: 10%;
+	}
+
+	#news img{
+		width: 90%;
+	}
+
+	#news h4{
+		font-size: 1.7rem;
+		font-weight: 600;
+		margin-left: 6rem;
+		margin-bottom: 0.5rem;
+	}
+
+	#news .newstext{
+		font-size: 1rem;
+		color: #868486;
+		border-left: 0.3rem solid #E9E9E9;
+		padding-left: 1rem;
+		padding-top: 2rem;
+		line-height: 2rem;
+		width: 70%;
+		font-family: 'Open sans';
+		padding-bottom: 2rem;
+	}
+
+	#news a{
+		border-left: 0.3rem solid #E9E9E9;
+		padding-left: 1rem;
+		text-decoration: none;
+		color: #D93B3C;
+		font-size: 1.5rem;
+	}
+	#news{
+		padding-bottom: 5rem;
+		border-bottom: 0.2rem solid #E9E9E9;
+	}
+	/*Doormat*/
+
+	#doormat{
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 10rem;
+	}
+	#cases{
+		width: 50%;
+		margin: 1rem auto;
+	}
+
+	#cases h3{
+		font-size: 3rem;
+		font-weight: 500;
+		margin-left: 1rem;
+		margin-bottom: 3rem;
+	}
+
+	#cases li{
+		width: 80%;
+		padding-bottom: 2rem;
+		display: block;
+		margin: 1rem 0;
+	}
+
+	#cases .date{
+		width: 20%;
+	}
+
+	#cases h4{
+		font-size: 1.8rem;
+		font-weight: 550;
+		margin-left: 6rem;
+		margin-bottom: 1rem;
+	}
+
+	#testimonials{
+		width: 80%;
+		margin: 1rem auto;
+	}
+
+	#testimonials h3{
+		font-size: 3rem;
+		text-align: center;
+		font-weight: 500;
+		margin-bottom: 3rem;
+	}
+
+	#testimonials h4{
+		font-size: 1.5rem;
+		margin-left: 3rem;
+		color: #381E1F;
+		margin: 0.5rem;
+	}
+
+	#testimonials > ul > li > ul > li{
+		float: left;
+		width: 30%;
+	}
+
+	#testimonials > ul > li > ul{
+		margin-bottom: 1rem;
+	}
+
+	#testimonials ul{
+		margin-bottom: 2rem;
+		border-left: 0.3rem solid #E9E9E9;
+	}
+
+	#testimonials p{
+		margin-left: 0.5rem;
+		color: #797879;
+	}
+
+	#testimonials .testimonialpic{
+		width: 20%;
+	}
+
+	#testimonials .testimonialtext{
+		width: 60%;
+	}
+
+	#testimonials .sub{
+		font-size: 0.7rem;
+	}
+
+	#testimonials .testimonialtext p{
+		font-family: 'Open sans';
+	}
+
+
+}
+
+
+@media(min-width: 50rem){
+
+	/*General*/
+
+	.wrapper{
+		max-width: 90%;
+	}
+	.date{
+		background-color: #D93B3C;
+		width: 13%;
+		color: #fff;
+		float: left;
+		padding: 0.5rem;
+		text-align: center;
+		border-radius: 0.2rem;
+	}
+
+	.sub{
+		font-style: italic;
+		margin-left: 6rem;
+		margin-bottom: 1rem;
+	}
+	 /* ===========================================
+	   Intro
+	   =========================================== */
+
+	#intro{
+		margin-bottom: 2rem;
+		background-image: url(../img/BusinessIntro2.PNG);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding-bottom: 10%;
+	}
+
+	#intro > .wrapper{
+		padding-top: 5rem;
+	}
+	#intro > .wrapper > h3{
+		font-size: 5rem;
+		font-weight: 200;
+		margin-bottom: 2rem;
+		color: #fff;
+	}
+
+	#intro > .wrapper > p{
+		font-size: 1rem;
+		margin-bottom: 2rem;
+		font-weight: 100;
+		color: #fff;
+		width: 65%;
+		line-height: 2.5rem;
+		margin-bottom: 3rem;
+	}
+
+	#intro > .wrapper > a{
+		background-color: #D93B3C;
+		padding: 1.2rem;
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+		font-size: 1.5rem;
+		text-decoration: none;
+		color: #fff;
+		text-align: center;
+	}
+
+	/* ===========================================
+	   Content
+	   =========================================== */
+	/*General*/
+
+	#content h3{
+		font-size: 2rem;
+		font-weight: 500;
+		padding: 2rem;
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 5rem;
+		text-align: center;
+		border-top: 0.2rem solid #F6F4F5;
+	}
+
+	#content > div > section{
+		margin-top: 5rem;
+	}
+
+	/*Safety*/
+
+	#safety > h3{
+		border-bottom: 0.2rem solid #F6F4F5;
+		border-top: none;
+	}
+
+	#safety > ul{
+	}
+
+	#safety > ul > li{
+		width: 40%;
+		display: inline-block;
+		margin: 1.5rem 2rem;
+	}
+
+	#safety > ul > li > p{
+		padding-left: 1rem;
+		border-left: 0.3rem solid #E9E9E9;
+		font-size: 1.2rem;
+		margin-top: 1.5rem;
+		font-family: 'Open Sans', sans-serif;
+		color: #797879;
+	}
+	#safety > img{
+		float: left;
+	}
+	#safety h4{
+		font-size: 1.8rem;
+		font-weight: 500;
+		float: right;
+		padding-right: 10rem;
+		padding-top: 0.8rem;
+	}
+
+	/*Our Lawyers*/
+
+	#Lawyers > ul > li{
+		display: inline-block;
+		width: 45%;
+		margin: 1rem auto;
+		margin-bottom: 3rem;
+	}
+
+	.ID .pic{
+		float: left;
+		width: 40%;
+	}
+	
+	.ID .sub{
+		font-size: 0.8rem;
+	}
+	.ID h4{
+		font-size: 1.5rem;
+		font-weight: 500;
+		float: left;
+		margin-bottom: 1rem;
+		margin-left: 1rem;
+	}
+
+	.ID p{
+		margin-left: 1rem;
+		font-style: italic;
+		float: left;
+		padding-left: 1rem;
+		padding-bottom: 1rem;
+		border-left: 0.3rem solid #E9E9E9;
+		color: #797879;
+	}
+
+	.IDsocial{
+		width: 40%;
+		height: 30%;
+		margin-left: 1rem;
+		padding-bottom: 1rem;
+		float: left;
+		border-left: 0.3rem solid #E9E9E9;
+	}
+
+	.ID > a{
+		text-decoration: none;
+		color: #fff;
+		padding: 1rem;
+		margin-left: 1.5rem;
+		padding-left: 1rem;
+		padding-bottom: 1rem;
+		background-color: #D93B3C;
+		margin-top: 0.5rem;
+		float: left;
+	}
+
+	/*Areas*/
+
+	#Areas li{
+		display: inline-block;
+		width: 47%;
+		margin: 1rem;
+	}
+
+	#Areas h4{
+		color: #D93B3C;
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin: 0.5rem 0;
+	}
+
+	#Areas p{
+		margin-top: 0.5rem;
+		border-left: 0.3rem solid #E9E9E9;
+		padding-left: 1rem;
+		font-size: 1rem;
+		width: 80%;
+		font-family: 'Open Sans', sans-serif;
+		color: #797879;
+	}
+
+	#Areas{
+		padding-bottom: 3rem;
+		border-bottom: 0.3rem solid #E9E9E9;
+		margin-bottom: 5rem;
+	}
+
+	/*Intermezzo*/
+
+	#intermezzo img{
+		float: left;
+		margin-right: 1rem;
+	}
+
+	#intermezzo h3{
+		width: 40%;
+		text-align: left;
+		float: left;
+		font-size: 1.4rem;
+		border-top: none;
+		margin-left: 1rem;
+		margin-bottom: 1rem;
+		padding: 0;
+	}
+
+	#intermezzo p{
+		width: 40%;
+		margin-left: 1rem;
+		padding-left: 1rem;
+		float: left;
+		border-left: 0.3rem solid #E9E9E9;
+		color: #797879;
+		font-size: 1rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	/*Clients*/
+
+	#clients{
+		margin-bottom: 2rem;
+	}
+
+	#clients li{
+		display: inline-block;
+		width: 33%;
+		margin-bottom: 2rem;
+	}
+
+	/*Latest news*/
+
+	#news > section{
+		width: 75%;
+		margin: 2rem auto;
+	}
+
+	#news .date{
+		width: 5%;
+	}
+
+	#news img{
+		width: 90%;
+	}
+
+	#news h4{
+		font-size: 1.7rem;
+		font-weight: 600;
+		margin-left: 6rem;
+		margin-bottom: 0.5rem;
+	}
+
+	#news .newstext{
+		font-size: 1rem;
+		color: #868486;
+		border-left: 0.3rem solid #E9E9E9;
+		padding-left: 1rem;
+		padding-top: 2rem;
+		line-height: 2rem;
+		width: 70%;
+		font-family: 'Open sans';
+		padding-bottom: 2rem;
+	}
+
+	#news a{
+		border-left: 0.3rem solid #E9E9E9;
+		padding-left: 1rem;
+		text-decoration: none;
+		color: #D93B3C;
+		font-size: 1.5rem;
+	}
+	#news{
+		padding-bottom: 5rem;
+		border-bottom: 0.2rem solid #E9E9E9;
+	}
+	/*Doormat*/
+
+	#doormat{
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 10rem;
+	}
+	#cases{
+		width: 50%;
+		margin: 1rem auto;
+	}
+
+	#cases h3{
+		font-size: 3rem;
+		font-weight: 500;
+		margin-left: 1rem;
+		margin-bottom: 3rem;
+	}
+
+	#cases li{
+		width: 80%;
+		padding-bottom: 2rem;
+		display: block;
+		margin: 1rem 0;
+	}
+
+	#cases .date{
+		width: 17%;
+	}
+
+	#cases h4{
+		font-size: 1.8rem;
+		font-weight: 550;
+		margin-left: 6rem;
+		margin-bottom: 1rem;
+	}
+
+	#testimonials{
+		width: 80%;
+		margin: 1rem auto;
+	}
+
+	#testimonials h3{
+		font-size: 3rem;
+		text-align: center;
+		font-weight: 500;
+		margin-bottom: 3rem;
+	}
+
+	#testimonials h4{
+		font-size: 1.5rem;
+		margin-left: 3rem;
+		color: #381E1F;
+		margin: 0.5rem;
+	}
+
+	#testimonials > ul > li > ul > li{
+		float: left;
+		width: 30%;
+	}
+
+	#testimonials > ul > li > ul{
+		margin-bottom: 1rem;
+	}
+
+	#testimonials ul{
+		border-left: 0.3rem solid #E9E9E9;
+	}
+
+	#testimonials p{
+		margin-left: 0.5rem;
+		color: #797879;
+	}
+
+	#testimonials .testimonialpic{
+		width: 20%;
+	}
+
+	#testimonials .testimonialtext{
+		width: 40%;
+	}
+
+	#testimonials .testimonialtext p{
+		font-family: 'Open sans';
+	}
+}
+
+
+
+
+@media(min-width: 78rem){
+
+	/*General*/
+
+	.date{
+		background-color: #D93B3C;
+		width: 13%;
+		color: #fff;
+		float: left;
+		padding: 0.7rem;
+		text-align: center;
+		border-radius: 0.2rem;
+	}
+
+	.sub{
+		font-style: italic;
+		margin-left: 6rem;
+		margin-bottom: 1rem;
+	}
+	 /* ===========================================
+	   Intro
+	   =========================================== */
+
+	#intro{
+		margin-bottom: 2rem;
+		background-image: url(../img/BusinessIntro2.PNG);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		padding-bottom: 10%;
+	}
+
+	#intro > .wrapper{
+		padding-top: 10rem;
+	}
+	#intro > .wrapper > h3{
+		font-size: 6rem;
+		font-weight: 200;
+		margin-bottom: 2rem;
+		color: #fff;
+	}
+
+	#intro > .wrapper > p{
+		font-size: 1.6rem;
+		margin-bottom: 2rem;
+		font-weight: 100;
+		color: #fff;
+		width: 65%;
+		line-height: 2.5rem;
+		margin-bottom: 3rem;
+	}
+
+	#intro > .wrapper > a{
+		background-color: #D93B3C;
+		padding: 1.2rem;
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+		font-size: 1.5rem;
+		text-decoration: none;
+		color: #fff;
+		text-align: center;
+	}
+
+	/* ===========================================
+	   Content
+	   =========================================== */
+	/*General*/
+
+	#content h3{
+		font-size: 3.5rem;
+		font-weight: 500;
+		padding: 2rem;
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 5rem;
+		text-align: center;
+		border-top: 0.2rem solid #F6F4F5;
+	}
+
+	#content > div > section{
+		margin-top: 5rem;
+	}
+
+	/*Safety*/
+
+	#safety > h3{
+		border-bottom: 0.2rem solid #F6F4F5;
+		border-top: none;
+	}
+
+	#safety > ul{
+	}
+
+	#safety > ul > li{
+		width: 20%;
+		display: inline-block;
+		margin: 1.5rem 2rem;
+	}
+
+	#safety > ul > li > p{
+		padding-left: 1rem;
+		border-left: 0.3rem solid #E9E9E9;
+		font-size: 1.2rem;
+		margin-top: 1.5rem;
+		font-family: 'Open Sans', sans-serif;
+		color: #797879;
+	}
+	#safety > img{
+		float: left;
+	}
+	#safety h4{
+		font-size: 1.8rem;
+		font-weight: 500;
+		float: right;
+		padding-right: 3rem;
+		padding-top: 0.8rem;
+	}
+
+	/*Our Lawyers*/
+
+	#Lawyers > ul > li{
+		display: inline-block;
+		width: 30%;
+	}
+
+	.ID .pic{
+		float: left;
+	}
+
+	.ID h4{
+		font-size: 1.7rem;
+		font-weight: 500;
+		float: left;
+		margin-bottom: 1rem;
+		margin-left: 1rem;
+	}
+
+	.ID p{
+		margin-left: 1rem;
+		font-style: italic;
+		float: left;
+		padding-left: 1rem;
+		padding-bottom: 1rem;
+		border-left: 0.3rem solid #E9E9E9;
+		color: #797879;
+	}
+
+	.IDsocial{
+		width: 30%;
+		height: 30%;
+		margin-left: 1rem;
+		padding-bottom: 1rem;
+		float: left;
+		border-left: 0.3rem solid #E9E9E9;
+	}
+
+	.ID > a{
+		text-decoration: none;
+		color: #fff;
+		padding: 1rem;
+		margin-left: 1.5rem;
+		padding-left: 1rem;
+		padding-bottom: 1rem;
+		background-color: #D93B3C;
+		margin-top: 0.5rem;
+		float: left;
+	}
+
+	/*Areas*/
+
+	#Areas li{
+		display: inline-block;
+		width: 17%;
+		margin: 1rem;
+	}
+
+	#Areas h4{
+		color: #D93B3C;
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin: 0.5rem 0;
+	}
+
+	#Areas p{
+		margin-top: 0.5rem;
+		border-left: 0.3rem solid #E9E9E9;
+		padding-left: 1rem;
+		font-size: 1rem;
+		width: 80%;
+		font-family: 'Open Sans', sans-serif;
+		color: #797879;
+	}
+
+	#Areas{
+		padding-bottom: 3rem;
+		border-bottom: 0.3rem solid #E9E9E9;
+		margin-bottom: 5rem;
+	}
+
+	/*Intermezzo*/
+
+	#intermezzo img{
+		float: left;
+		width: 50%;
+		margin-right: 1rem;
+	}
+
+	#intermezzo h3{
+		width: 45%;
+		text-align: left;
+		float: left;
+		font-size: 1.8rem;
+		border-top: none;
+		margin-left: 1rem;
+		margin-bottom: 1rem;
+		padding: 0;
+	}
+
+	#intermezzo p{
+		width: 45%;
+		margin-left: 1rem;
+		padding-left: 1rem;
+		float: left;
+		border-left: 0.3rem solid #E9E9E9;
+		color: #797879;
+		font-size: 1.5rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	/*Clients*/
+
+	#clients{
+		margin-bottom: 2rem;
+	}
+
+	#clients li{
+		display: inline-block;
+		width: 15%;
+		margin: 0.6rem;
+	}
+
+	/*Latest news*/
+
+	#news > section{
+		width: 30%;
+		display: inline-block;
+		margin: 1.2rem;
+	}
+	
+	#news .date{
+		width: 12%;
+	}
+	
+	#news h4{
+		font-size: 1.7rem;
+		font-weight: 600;
+		margin-left: 6rem;
+		margin-bottom: 0.5rem;
+	}
+
+	#news .newstext{
+		font-size: 1.5rem;
+		color: #868486;
+		border-left: 0.3rem solid #E9E9E9;
+		padding-left: 1rem;
+		padding-top: 2rem;
+		line-height: 2rem;
+		font-family: 'Open sans';
+		padding-bottom: 2rem;
+	}
+
+	#news a{
+		border-left: 0.3rem solid #E9E9E9;
+		padding-left: 1rem;
+		text-decoration: none;
+		color: #D93B3C;
+		font-size: 1.5rem;
+	}
+	#news{
+		padding-bottom: 5rem;
+		border-bottom: 0.2rem solid #E9E9E9;
+	}
+	/*Doormat*/
+
+	#doormat{
+		margin-top: 10rem;
+	}
+	#cases{
+		width: 37%;
+		float: left;
+	}
+
+	#cases h3{
+		font-size: 3rem;
+		font-weight: 500;
+		margin-bottom: 3rem;
+	}
+
+	#cases li{
+		width: 80%;
+		padding-bottom: 2rem;
+		display: block;
+		margin: 1rem 0;
+	}
+
+	#cases .date{
+		width: 17%;
+	}
+
+	#cases h4{
+		font-size: 1.8rem;
+		font-weight: 550;
+		margin-left: 6rem;
+		margin-bottom: 1rem;
+	}
+
+	#testimonials{
+		width: 60%;
+		float: left;
+	}
+
+	#testimonials h3{
+		font-size: 3rem;
+		font-weight: 500;
+		margin-bottom: 3rem;
+	}
+
+	#testimonials h4{
+		font-size: 1.5rem;
+		margin-left: 3rem;
+		color: #381E1F;
+		margin: 0.5rem;
+	}
+
+	#testimonials > ul > li > ul > li{
+		float: left;
+		width: 30%;
+	}
+
+	#testimonials > ul > li > ul{
+		margin-bottom: 1rem;
+	}
+
+	#testimonials ul{
+		border-left: 0.3rem solid #E9E9E9;
+	}
+
+	#testimonials p{
+		margin-left: 0.5rem;
+		color: #797879;
+	}
+
+	#testimonials .testimonialpic{
+		width: 20%;
+	}
+
+	#testimonials .testimonialtext{
+		width: 40%;
+	}
+
+	#testimonials .testimonialtext p{
+		font-family: 'Open sans';
+	}
+
+}

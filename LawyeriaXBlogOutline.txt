@@ -1,0 +1,16 @@
+LawyeriaXBlog
+	Header
+	Content
+		Banking and financial
+		Family law
+		Bicycle accidents
+		Car accidents
+		Personal injury lawyer
+		Aside
+			Recent posts
+			Categories
+			Pages
+	Footer
+		Contact
+		Sitemap
+		Recent posts

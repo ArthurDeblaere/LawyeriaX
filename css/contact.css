@@ -1,0 +1,492 @@
+/**
+ * contact.css
+ *
+ * @author Arthur Deblaere <arthur.deblaere@student.odisee.be>
+ *
+ */
+
+/* Left */
+
+#contactleft{
+	width: 80%;
+	margin: 2rem auto;
+	padding-bottom: 5rem;
+	margin-bottom: 10rem;
+	border-bottom: 0.3rem solid #E9E9E9;
+}
+
+#contactleft h3{
+	border-left: 0.3rem solid #E9E9E9;
+	font-size: 3rem;
+	padding-left: 1rem;
+	margin: 2rem 0;
+	width: 15%;
+	text-align: left;
+	font-weight: 400;
+}
+
+#contactleft p{
+	font-family: 'Open Sans';
+	margin-top: 1rem;
+}
+
+#contactleft form{
+	margin: 1rem 0;
+}
+
+#contactleft form > dl > dd{
+	width: 90%;
+}
+#contactleft form > dl{
+	margin: 1rem;
+}
+
+
+#contactleft #namebox{
+	width: 98%;
+}
+#contactleft input{
+	width: 100%;
+	margin: 1rem 0;
+	font-size: 1rem;
+	padding: 0.5rem;
+	font-family: 'Open Sans', sans-serif;
+	color: #797879;
+}
+
+#contactleft textarea{
+	width: 100%;
+	margin: 1rem 0;
+}
+
+
+#contactleft #emailbox{
+	width: 98%;
+}
+
+#contactleft #subjectbox{
+	width: 98%;			/*zodanig dat het mooi 
+						uitlijnd met de bovenstaande boxes*/
+}
+
+#contactleft #messagebox{
+	width: 98%;
+}
+/*Deze code voor het opmaken met een submit
+#sendform{
+	float: right;
+	width: 20%;
+	margin-right: 2rem;
+	background-color: #357BAE;
+	font-family: 'Open sans';
+}
+*/
+
+#contactleft > form > a{
+	background-color: #357BAE;
+	padding: 1rem;
+	float: right;
+	font-size: 1.5rem;
+	font-family: 'Open sans';
+	color: #fff;
+	text-decoration: none;
+	margin-right: 2rem;
+	line-height: 1.5rem;
+	letter-spacing: -0.1rem;	/*https://www.w3schools.com/cssref/pr_text_letter-spacing.asp*/
+}
+
+/*Right*/
+
+#contactright{
+	width: 60%;
+	margin: 3rem auto;
+	margin-top: 6rem;
+	padding-left: 3rem;
+}
+
+#contactright form input{
+	width: 40%;
+	font-family: 'Open sans';
+	padding: 1rem 2rem;
+	padding-left: 0.3rem;
+	font-size: 1rem;
+	color: #797879;
+}
+
+#contactright > form > a{
+	background-color: #D93B3C;
+	padding: 1rem 2rem;
+	margin-left: 1rem;
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Moest het met input zijn:
+#contactright form p{
+	width: 20%;
+	float: left;
+}
+
+#contactright form p input{
+	width: 100%;
+	background-color: #D93B3C;
+	padding: 0.5rem;
+}
+*/
+#contactright section{
+	width: 80%;
+	margin: 3rem auto;
+}
+
+#contactright section ul{
+	margin: 1rem 0;
+	padding-left: 2rem;
+}
+
+#contactright section ul li{
+	padding: 0.3rem;
+	margin: 0.3rem;
+}
+#contactright section ul li a{
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: #D93B3C;
+	font-family: 'Open Sans'
+}
+
+#contactright section h4{
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+#content{
+	margin-bottom: 3rem;
+}
+
+
+/* ===========================================
+	   Media queries
+=========================================== */
+@media (min-width: 32rem){
+	/* Left */
+
+	#contactleft{
+		width: 80%;
+		margin: 2rem auto;
+		padding-bottom: 5rem;
+		margin-bottom: 10rem;
+		border-bottom: 0.3rem solid #E9E9E9;
+	}
+
+	#contactleft h3{
+		border-left: 0.3rem solid #E9E9E9;
+		font-size: 3rem;
+		padding-left: 1rem;
+		margin: 2rem 0;
+		width: 15%;
+		text-align: left;
+		font-weight: 400;
+	}
+
+	#contactleft p{
+		font-family: 'Open Sans';
+		margin-top: 1rem;
+	}
+
+	#contactleft form{
+		margin: 1rem 0;
+	}
+
+	#contactleft form > dl > dd{
+		display: inline-block;
+	}
+	#contactleft form > dl{
+		margin: 1rem;
+	}
+
+
+	#contactleft #namebox{
+		width: 49%;
+	}
+
+	#contactleft input{
+		width: 100%;
+		margin: 1rem 0;
+		font-size: 1rem;
+		padding: 0.5rem;
+		font-family: 'Open Sans', sans-serif;
+		color: #797879;
+	}
+
+	#contactleft textarea{
+		width: 100%;
+		margin: 1rem 0;
+	}
+
+
+	#contactleft #emailbox{
+		width: 49%;
+	}
+
+	#contactleft #subjectbox{
+		width: 98%;			/*zodanig dat het mooi 
+							uitlijnd met de bovenstaande boxes*/
+	}
+
+	#contactleft #messagebox{
+		width: 98%;
+	}
+	/*Deze code voor het opmaken met een submit
+	#sendform{
+		float: right;
+		width: 20%;
+		margin-right: 2rem;
+		background-color: #357BAE;
+		font-family: 'Open sans';
+	}
+	*/
+
+	#contactleft > form > a{
+		background-color: #357BAE;
+		padding: 1rem;
+		float: right;
+		font-size: 1.5rem;
+		font-family: 'Open sans';
+		color: #fff;
+		text-decoration: none;
+		margin-right: 2rem;
+		line-height: 1.5rem;
+		letter-spacing: -0.1rem;	/*https://www.w3schools.com/cssref/pr_text_letter-spacing.asp*/
+	}
+
+	/*Right*/
+
+	#contactright{
+		width: 60%;
+		margin: 3rem auto;
+		margin-top: 6rem;
+		padding-left: 3rem;
+	}
+
+	#contactright form input{
+		width: 40%;
+		font-family: 'Open sans';
+		padding: 1rem 2rem;
+		padding-left: 0.3rem;
+		font-size: 1rem;
+		color: #797879;
+	}
+
+	#contactright > form > a{
+		background-color: #D93B3C;
+		padding: 1rem 2rem;
+		margin-left: 1rem;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	/* Moest het met input zijn:
+	#contactright form p{
+		width: 20%;
+		float: left;
+	}
+
+	#contactright form p input{
+		width: 100%;
+		background-color: #D93B3C;
+		padding: 0.5rem;
+	}
+	*/
+	#contactright section{
+		width: 80%;
+		margin: 3rem auto;
+	}
+
+	#contactright section ul{
+		margin: 1rem 0;
+		padding-left: 2rem;
+	}
+
+	#contactright section ul li{
+		padding: 0.3rem;
+		margin: 0.3rem;
+	}
+	#contactright section ul li a{
+		text-decoration: none;
+		font-size: 1.2rem;
+		color: #D93B3C;
+		font-family: 'Open Sans'
+	}
+
+	#contactright section h4{
+		font-size: 2rem;
+		font-weight: 400;
+	}
+
+	#content{
+		margin-bottom: 3rem;
+	}
+
+}
+
+@media (min-width: 51rem){
+
+	/* Left */
+
+	#contactleft{
+		width: 60%;
+		margin-top: 2rem;
+		float: left;
+	}
+
+	#contactleft h3{
+		border-left: 0.3rem solid #E9E9E9;
+		font-size: 3rem;
+		padding-left: 1rem;
+		margin: 2rem 0;
+		width: 15%;
+		text-align: left;
+		font-weight: 400;
+	}
+
+	#contactleft p{
+		font-family: 'Open Sans';
+		margin-top: 1rem;
+	}
+
+	#contactleft form{
+		margin: 1rem 0;
+	}
+
+	#contactleft form > dl > dd{
+		display: inline-block;
+	}
+	#contactleft form > dl{
+		margin: 1rem;
+	}
+
+
+	#contactleft #namebox{
+		width: 49%;
+	}
+
+	#contactleft input{
+		width: 100%;
+		margin: 1rem 0;
+		font-size: 1rem;
+		padding: 0.5rem;
+		font-family: 'Open Sans', sans-serif;
+		color: #797879;
+	}
+
+	#contactleft textarea{
+		width: 100%;
+		margin: 1rem 0;
+	}
+
+
+	#contactleft #emailbox{
+		width: 49%;
+	}
+
+	#contactleft #subjectbox{
+		width: 98%;			/*zodanig dat het mooi 
+							uitlijnd met de bovenstaande boxes*/
+	}
+
+	#contactleft #messagebox{
+		width: 98%;
+	}
+	/*Deze code voor het opmaken met een submit
+	#sendform{
+		float: right;
+		width: 20%;
+		margin-right: 2rem;
+		background-color: #357BAE;
+		font-family: 'Open sans';
+	}
+	*/
+
+	#contactleft > form > a{
+		background-color: #357BAE;
+		padding: 1rem;
+		float: right;
+		font-size: 1.5rem;
+		font-family: 'Open sans';
+		color: #fff;
+		text-decoration: none;
+		margin-right: 2rem;
+		line-height: 1.5rem;
+		letter-spacing: -0.1rem;	/*https://www.w3schools.com/cssref/pr_text_letter-spacing.asp*/
+	}
+
+	/*Right*/
+
+	#contactright{
+		width: 33%;
+		float:right;
+		padding-left: 3rem;
+		border-left: 0.5rem solid #E9E9E9;
+	}
+
+	#contactright form input{
+		width: 40%;
+		font-family: 'Open sans';
+		padding: 1rem 2rem;
+		padding-left: 0.3rem;
+		font-size: 1rem;
+		color: #797879;
+	}
+
+	#contactright > form > a{
+		background-color: #D93B3C;
+		padding: 1rem 2rem;
+		margin-left: 1rem;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	/* Moest het met input zijn:
+	#contactright form p{
+		width: 20%;
+		float: left;
+	}
+
+	#contactright form p input{
+		width: 100%;
+		background-color: #D93B3C;
+		padding: 0.5rem;
+	}
+	*/
+	#contactright section{
+		float: left;
+		width: 100%;
+		margin-top: 3rem;
+	}
+
+	#contactright section ul{
+		margin: 1rem 0;
+		padding-left: 2rem;
+	}
+
+	#contactright section ul li{
+		padding: 0.3rem;
+		margin: 0.3rem;
+	}
+	#contactright section ul li a{
+		text-decoration: none;
+		font-size: 1.2rem;
+		color: #D93B3C;
+		font-family: 'Open Sans'
+	}
+
+	#contactright section h4{
+		font-size: 2rem;
+		font-weight: 400;
+	}
+
+	#content{
+		margin-bottom: 3rem;
+	}
+
+}

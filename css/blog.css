@@ -1,0 +1,275 @@
+/**
+ * blog.css
+ *
+ * @author Arthur Deblaere <arthur.deblaere@student.odisee.be>
+ *
+ */
+
+ /* ===========================================
+   Leftside
+   =========================================== */
+
+#blogleft{
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 0.3rem solid #E9E9E9;
+}
+
+#blogleft h3{
+	font-size: 2.5rem;
+	font-weight: 500;
+	color: #D93B3C;
+	border-left: 0.3rem solid #E9E9E9;
+	padding-left: 1.5rem;
+	margin-top: 1rem;
+}
+
+#blogleft .imagebig{
+	width: 100%;
+}
+
+#blogleft .mini{
+	width: 50%;
+}
+
+#blogleft > ul > li > ul{
+	padding-left: 2rem;
+	margin-top: 1rem;
+}
+
+#blogleft > ul >li{
+	margin: 2rem 0;
+}
+
+#blogleft > ul > li > ul li{
+	display: inline-block;
+}
+
+#blogleft > ul > li > ul > li > p{
+	width: 100%;
+	font-size: 0.7rem;
+	font-style: italic;
+	margin-right: 3rem;
+	margin-left: -2rem;
+}
+
+#blogleft .blogtext{
+	font-family: 'Open sans';
+	color: #797879;
+	margin: 2rem 0;
+	font-style: normal;
+}
+
+#blogleft > ul > li a{
+	text-decoration: none;
+	color: #D93B3C;
+	font-family: 'Open sans';
+	font-size: 1rem;
+	margin: 1rem 0;
+	margin-bottom: 5rem;
+}
+
+/* ===========================================
+   Rightside
+   =========================================== */
+
+#blogright{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 5rem;
+	padding-left: 3rem;
+	padding-bottom: 3rem;
+}
+
+#blogright form input{
+	width: 40%;
+	font-family: 'Open sans';
+	padding: 1rem 2rem;
+	padding-left: 0.3rem;
+	font-size: 1rem;
+	color: #797879;
+}
+
+#blogright > form > a{
+	background-color: #D93B3C;
+	padding: 1rem 2rem;
+	margin-left: 1rem;
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Moest het met input zijn:
+#blogright form p{
+	width: 20%;
+	float: left;
+}
+
+#blogright form p input{
+	width: 100%;
+	background-color: #D93B3C;
+	padding: 0.5rem;
+}
+*/
+#blogright section{
+	float: left;
+	width: 100%;
+	margin-top: 3rem;
+}
+
+#blogright section ul{
+	margin: 1rem 0;
+	padding-left: 2rem;
+}
+
+#blogright section ul li{
+	padding: 0.3rem;
+	margin: 0.3rem;
+}
+#blogright section ul li a{
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: #D93B3C;
+	font-family: 'Open Sans'
+}
+
+#blogright section h4{
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+
+/* ===========================================
+   Media queries
+   =========================================== */
+
+@media (min-width: 52rem){
+	/* ===========================================
+	   Leftside
+	   =========================================== */
+
+	#blogleft{
+		width: 60%;
+		float: left;
+	}
+
+	#blogleft h3{
+		font-size: 2.5rem;
+		font-weight: 500;
+		color: #D93B3C;
+		border-left: 0.3rem solid #E9E9E9;
+		padding-left: 1.5rem;
+		margin-top: 1rem;
+	}
+
+	#blogleft .imagebig{
+		width: 100%;
+	}
+
+	#blogleft .mini{
+		width: 50%;
+	}
+
+	#blogleft > ul > li > ul{
+		padding-left: 2rem;
+		margin-top: 1rem;
+	}
+
+	#blogleft > ul >li{
+		margin: 2rem 0;
+	}
+
+	#blogleft > ul > li > ul li{
+		display: inline-block;
+	}
+
+	#blogleft > ul > li > ul > li > p{
+		width: 100%;
+		font-style: italic;
+		margin-right: 3rem;
+		margin-left: -2rem;
+	}
+
+	#blogleft .blogtext{
+		font-family: 'Open sans';
+		color: #797879;
+		margin: 2rem 0;
+		font-style: normal;
+	}
+
+	#blogleft > ul > li a{
+		text-decoration: none;
+		color: #D93B3C;
+		font-family: 'Open sans';
+		font-size: 1rem;
+		margin: 1rem 0;
+		margin-bottom: 5rem;
+	}
+
+	/* ===========================================
+	   Rightside
+	   =========================================== */
+
+	#blogright{
+		width: 33%;
+		margin-top: 1rem;
+		float:right;
+		padding-left: 3rem;
+		border-left: 0.5rem solid #E9E9E9;
+	}
+
+	#blogright form input{
+		width: 40%;
+		font-family: 'Open sans';
+		padding: 1rem 2rem;
+		padding-left: 0.3rem;
+		font-size: 1rem;
+		color: #797879;
+	}
+
+	#blogright > form > a{
+		background-color: #D93B3C;
+		padding: 1rem 2rem;
+		margin-left: 1rem;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	/* Moest het met input zijn:
+	#blogright form p{
+		width: 20%;
+		float: left;
+	}
+
+	#blogright form p input{
+		width: 100%;
+		background-color: #D93B3C;
+		padding: 0.5rem;
+	}
+	*/
+	#blogright section{
+		float: left;
+		width: 100%;
+		margin-top: 3rem;
+	}
+
+	#blogright section ul{
+		margin: 1rem 0;
+		padding-left: 2rem;
+	}
+
+	#blogright section ul li{
+		padding: 0.3rem;
+		margin: 0.3rem;
+	}
+	#blogright section ul li a{
+		text-decoration: none;
+		font-size: 1.2rem;
+		color: #D93B3C;
+		font-family: 'Open Sans'
+	}
+
+	#blogright section h4{
+		font-size: 2rem;
+		font-weight: 400;
+	}
+}
